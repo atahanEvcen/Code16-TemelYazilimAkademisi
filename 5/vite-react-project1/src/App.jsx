@@ -15,7 +15,7 @@ function App() {
   const isActive = true
 
   const headStyles = { 
-    h2styles: {backgroundColor:"red",color:"white"}
+    h2styles: {backgroundColor:"red",color:"white"} 
   }
 
 
