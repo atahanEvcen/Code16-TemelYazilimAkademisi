@@ -1,6 +1,6 @@
 # CODE16 TEMEL YAZILIM AKADEMİSİ 6.HAFTA PROJESI
 
-# React + Vite Kullanılarak Geliştirilen Sıcaklık Dönüştürme Araci
+## React + Vite Kullanılarak Geliştirilen Sıcaklık Dönüştürme Araci
 
 - Proje Çıktısını izlemek için resme tıklayın..
 
