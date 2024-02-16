@@ -4,7 +4,7 @@ function ImgThumbnail({imgSrc, imgAlt}) {
         padding:"4px",
         borderRadius:"10px",
         border: "1px solid black",
-        width:"100%",
+        maxwidth: "100%",
         boxSizing:"border-box",
         marginBottom:"5px",
     }
@@ -13,7 +13,8 @@ function ImgThumbnail({imgSrc, imgAlt}) {
     <img 
     src={imgSrc} 
     alt={imgAlt}
-    style={imgStyle} />
+    style={imgStyle} 
+    />
   )
 }
 

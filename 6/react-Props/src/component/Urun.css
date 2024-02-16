@@ -4,9 +4,13 @@
 
 .baslik{
     color: rgb(92, 22, 22);
+    text-align: center;
 }
 
 .content{
     background-color: rgb(247, 142, 4);
     color: white;
+    text-align: center;
 }
+
+.h3 {text-align: center;}

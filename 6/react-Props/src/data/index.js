@@ -1,3 +1,4 @@
 import IMAGES from './images'
+import INFO from './info'
 
-export {IMAGES}
+export {IMAGES,INFO}
