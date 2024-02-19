@@ -4,5 +4,5 @@
 
 - Proje Çıktısı aşağıdaki gibidir.
 
-[<img src="https://i.hizliresim.com/ka6mzft.png"
-/>]
+<img src="https://i.hizliresim.com/ka6mzft.png"
+/>
