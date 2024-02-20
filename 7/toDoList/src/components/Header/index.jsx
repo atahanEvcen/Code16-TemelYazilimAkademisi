@@ -1,15 +1,15 @@
-import toDoList from '../../assets/toDoList.svg';
-import styles from './header.module.css';
-import { useState } from 'react';
+import toDoList from "../../assets/toDoList.svg";
+import styles from "./header.module.css";
+import { useState } from "react";
 
 export function Header({ handleAddTask }) {
-  const [title, setTitle] = useState('');
+  const [title, setTitle] = useState("");
 
   function handleSubmit(event) {
     event.preventDefault();
 
     handleAddTask(title);
-    setTitle('');
+    setTitle("");
   }
 
   function onChangeTitle(event) {
@@ -21,9 +21,14 @@ export function Header({ handleAddTask }) {
       <img src={toDoList} />
 
       <form onSubmit={handleSubmit} className={styles.newTaskForm}>
-        <input placeholder="Yeni Görev Ekle" type="text" onChange={onChangeTitle} value={title} />
+        <input
+          placeholder="Yeni Görev Ekle"
+          type="text"
+          onChange={onChangeTitle}
+          value={title}
+        />
         <button>Oluştur. </button>
       </form>
     </header>
-  )
+  );
 }

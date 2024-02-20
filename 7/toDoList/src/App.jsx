@@ -2,14 +2,14 @@ import { useEffect, useState } from "react";
 import { Header } from "./components/Header";
 import { Tasks } from "./components/Tasks";
 
-const LOCAL_STORAGE_KEY = 'todo:tasks';
+const LOCAL_STORAGE_KEY = "todo:tasks";
 
 function App() {
   const [tasks, setTasks] = useState([]);
 
   function loadSavedTasks() {
     const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
-    if(saved) {
+    if (saved) {
       setTasks(JSON.parse(saved));
     }
   }
@@ -21,28 +21,31 @@ function App() {
 
   useEffect(() => {
     loadSavedTasks();
-  }, [])
+  }, []);
 
   function addTask(taskTitle) {
-    setTasksAndSave([...tasks, {
-      id: crypto.randomUUID(),
-      title: taskTitle,
-      isCompleted: false
-    }]);
+    setTasksAndSave([
+      ...tasks,
+      {
+        id: crypto.randomUUID(),
+        title: taskTitle,
+        isCompleted: false,
+      },
+    ]);
   }
 
   function deleteTaskById(taskId) {
-    const newTasks = tasks.filter(task => task.id !== taskId);
+    const newTasks = tasks.filter((task) => task.id !== taskId);
     setTasksAndSave(newTasks);
   }
 
   function toggleTaskCompletedById(taskId) {
-    const newTasks = tasks.map(task => {
-      if(task.id === taskId) {
+    const newTasks = tasks.map((task) => {
+      if (task.id === taskId) {
         return {
           ...task,
-          isCompleted: !task.isCompleted
-        }
+          isCompleted: !task.isCompleted,
+        };
       }
       return task;
     });
@@ -58,7 +61,7 @@ function App() {
         onComplete={toggleTaskCompletedById}
       />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
