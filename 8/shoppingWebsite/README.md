@@ -1,4 +1,4 @@
-# CODE16 TEMEL YAZILIM AKADEMİSİ 7.HAFTA PROJESI
+# CODE16 TEMEL YAZILIM AKADEMİSİ 8.HAFTA PROJESI
 
 ## React + Vite + Bootstrap + ReactRouterDOM + FakeStoreApi Kullanılarak Geliştirilen Alışveriş Sitesi
 
