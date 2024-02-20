@@ -1,8 +1,8 @@
-# React + Vite
+# CODE16 TEMEL YAZILIM AKADEMİSİ 7.HAFTA PROJESI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## React + Vite + Bootstrap + ReactRouterDOM + FakeStoreApi Kullanılarak Geliştirilen Alışveriş Sitesi
 
-Currently, two official plugins are available:
+- Proje Çıktısı aşağıdaki gibidir.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<img src="https://resmim.net/cdn/2024/02/20/Za9cgI.jpg"
+/>
